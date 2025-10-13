@@ -278,6 +278,25 @@
     }
   },
   {
+    "label": "pointer/CoreReadOnlyPointers_GetTests",
+    "name": "pointer/CoreReadOnlyPointers_GetTests",
+    "tags": [
+      "event/onStart",
+      "pointer/get",
+      "math/eq",
+      "flow/branch",
+      "pointer/set",
+      "debug/log",
+      "variable/set",
+      "variable/get",
+      "flow/sequence"
+    ],
+    "variants": {
+      "glTF-Binary": "CoreReadOnlyPointers_GetTests.glb",
+      "test-Json": "CoreReadOnlyPointers_GetTests.json"
+    }
+  },
+  {
     "label": "pointer/set and get",
     "name": "pointer/set_and_get",
     "tags": [
@@ -308,6 +327,9 @@
       "flow/branch",
       "flow/sequence",
       "math/eq",
+      "math/sub",
+      "math/abs",
+      "math/lt",
       "math/add",
       "math/and",
       "flow/setDelay"

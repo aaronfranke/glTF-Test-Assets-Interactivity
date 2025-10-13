@@ -3580,14 +3580,14 @@
       ],
       "entryPoints": [
         {
-          "name": "= [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
+          "name": "[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
           "nodeId": 2950
         }
       ],
       "subTests": [
         {
-          "name": "= [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
-          "resultVarName": "TestResult_math/matCompose_= [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
+          "name": "[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
+          "resultVarName": "TestResult_math/matCompose_[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]",
           "resultVarId": 325,
           "resultVarType": "float4x4",
           "expectedResultValue": [
@@ -3609,7 +3609,7 @@
             1.0
           ],
           "successResultVarId": 324,
-          "successResultVarName": "TestResult_HasPassed_math/matCompose_= [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]"
+          "successResultVarName": "TestResult_HasPassed_math/matCompose_[translation] (1.00, 1.00, 1.00) [rotation] (0.00, 0.00, 0.00, 1.00) [scale] (1.00, 1.00, 1.00) = [1.0,0.0,0.0,1.0,0.0,1.0,0.0,1.0,0.0,0.0,1.0,1.0,0.0,0.0,0.0,1.0]"
         }
       ]
     },
@@ -5238,22 +5238,22 @@
       ],
       "entryPoints": [
         {
-          "name": "[a] (1.00, 2.00) = (-0.08, 2.23)",
+          "name": "[a] (1.00, 2.00) [angle] 0.50 = (-0.08, 2.23)",
           "nodeId": 4094
         },
         {
-          "name": "[a] (0.00, 1.00) = (-0.48, 0.88)",
+          "name": "[a] (0.00, 1.00) [angle] 0.50 = (-0.48, 0.88)",
           "nodeId": 4112
         },
         {
-          "name": "[a] (1.00, 2.00) = (1.55, 1.62)",
+          "name": "[a] (1.00, 2.00) [angle] -0.30 = (1.55, 1.62)",
           "nodeId": 4130
         }
       ],
       "subTests": [
         {
-          "name": "[a] (1.00, 2.00) = (-0.08, 2.23)",
-          "resultVarName": "TestResult_math/rotate2D_[a] (1.00, 2.00) = (-0.08, 2.23)",
+          "name": "[a] (1.00, 2.00) [angle] 0.50 = (-0.08, 2.23)",
+          "resultVarName": "TestResult_math/rotate2D_[a] (1.00, 2.00) [angle] 0.50 = (-0.08, 2.23)",
           "resultVarId": 463,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -5261,11 +5261,11 @@
             2.23459077
           ],
           "successResultVarId": 462,
-          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (1.00, 2.00) = (-0.08, 2.23)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (1.00, 2.00) [angle] 0.50 = (-0.08, 2.23)"
         },
         {
-          "name": "[a] (0.00, 1.00) = (-0.48, 0.88)",
-          "resultVarName": "TestResult_math/rotate2D_[a] (0.00, 1.00) = (-0.48, 0.88)",
+          "name": "[a] (0.00, 1.00) [angle] 0.50 = (-0.48, 0.88)",
+          "resultVarName": "TestResult_math/rotate2D_[a] (0.00, 1.00) [angle] 0.50 = (-0.48, 0.88)",
           "resultVarId": 465,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -5273,11 +5273,11 @@
             0.87758255
           ],
           "successResultVarId": 464,
-          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (0.00, 1.00) = (-0.48, 0.88)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (0.00, 1.00) [angle] 0.50 = (-0.48, 0.88)"
         },
         {
-          "name": "[a] (1.00, 2.00) = (1.55, 1.62)",
-          "resultVarName": "TestResult_math/rotate2D_[a] (1.00, 2.00) = (1.55, 1.62)",
+          "name": "[a] (1.00, 2.00) [angle] -0.30 = (1.55, 1.62)",
+          "resultVarName": "TestResult_math/rotate2D_[a] (1.00, 2.00) [angle] -0.30 = (1.55, 1.62)",
           "resultVarId": 467,
           "resultVarType": "float2",
           "expectedResultValue": [
@@ -5285,7 +5285,7 @@
             1.61515272
           ],
           "successResultVarId": 466,
-          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (1.00, 2.00) = (1.55, 1.62)"
+          "successResultVarName": "TestResult_HasPassed_math/rotate2D_[a] (1.00, 2.00) [angle] -0.30 = (1.55, 1.62)"
         }
       ]
     },

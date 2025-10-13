@@ -3059,9 +3059,12 @@
         "flow/branch",
         "flow/sequence",
         "flow/setDelay",
+        "math/abs",
         "math/add",
         "math/and",
         "math/eq",
+        "math/lt",
+        "math/sub",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -3073,7 +3076,7 @@
         },
         {
           "name": "Delayed Check (delayed execution)",
-          "nodeId": 3171,
+          "nodeId": 3173,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -3167,24 +3170,24 @@
       "entryPoints": [
         {
           "name": "Interpolate (delayed execution)",
-          "nodeId": 3181,
+          "nodeId": 3183,
           "delayedExecutionTime": 4.5
         },
         {
           "name": "[Err] flow (duration -1f",
-          "nodeId": 3225
+          "nodeId": 3227
         },
         {
           "name": "[Err] flow (duration infinite",
-          "nodeId": 3234
+          "nodeId": 3236
         },
         {
           "name": "[Err] flow (p1 NaN)",
-          "nodeId": 3243
+          "nodeId": 3245
         },
         {
           "name": "[Err] flow (p2 NaN)",
-          "nodeId": 3252
+          "nodeId": 3254
         }
       ],
       "subTests": [
@@ -3294,51 +3297,51 @@
       "entryPoints": [
         {
           "name": "Set Variable bool",
-          "nodeId": 3262
+          "nodeId": 3264
         },
         {
           "name": "Set Variable int",
-          "nodeId": 3276
+          "nodeId": 3278
         },
         {
           "name": "Set Variable float",
-          "nodeId": 3290
+          "nodeId": 3292
         },
         {
           "name": "Set Variable float2",
-          "nodeId": 3304
+          "nodeId": 3306
         },
         {
           "name": "Set Variable float3",
-          "nodeId": 3318
+          "nodeId": 3320
         },
         {
           "name": "Set Variable float4",
-          "nodeId": 3332
+          "nodeId": 3334
         },
         {
           "name": "Get default value from Variable bool",
-          "nodeId": 3346
+          "nodeId": 3348
         },
         {
           "name": "Get default value from Variable int",
-          "nodeId": 3359
+          "nodeId": 3361
         },
         {
           "name": "Get default value from Variable float",
-          "nodeId": 3372
+          "nodeId": 3374
         },
         {
           "name": "Get default value from Variable float2",
-          "nodeId": 3385
+          "nodeId": 3387
         },
         {
           "name": "Get default value from Variable float3",
-          "nodeId": 3398
+          "nodeId": 3400
         },
         {
           "name": "Get default value from Variable float4",
-          "nodeId": 3411
+          "nodeId": 3413
         }
       ],
       "subTests": [
@@ -3505,7 +3508,7 @@
       "entryPoints": [
         {
           "name": "Set multiple variables",
-          "nodeId": 3424
+          "nodeId": 3426
         }
       ],
       "subTests": [

@@ -11,9 +11,12 @@
         "flow/branch",
         "flow/sequence",
         "flow/setDelay",
+        "math/abs",
         "math/add",
         "math/and",
         "math/eq",
+        "math/lt",
+        "math/sub",
         "pointer/set",
         "variable/get",
         "variable/set"
@@ -25,7 +28,7 @@
         },
         {
           "name": "Delayed Check (delayed execution)",
-          "nodeId": 71,
+          "nodeId": 73,
           "delayedExecutionTime": 1.0
         }
       ],
@@ -105,9 +108,12 @@
     "flow/branch",
     "flow/sequence",
     "flow/setDelay",
+    "math/abs",
     "math/add",
     "math/and",
     "math/eq",
+    "math/lt",
+    "math/sub",
     "pointer/set",
     "variable/get",
     "variable/set"

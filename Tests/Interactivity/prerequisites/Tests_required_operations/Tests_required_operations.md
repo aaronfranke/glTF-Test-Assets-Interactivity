@@ -17,9 +17,12 @@ Schemas used in this test case:
 - flow/branch
 - flow/sequence
 - flow/setDelay
+- math/abs
 - math/add
 - math/and
 - math/eq
+- math/lt
+- math/sub
 - pointer/set
 - variable/get
 - variable/set

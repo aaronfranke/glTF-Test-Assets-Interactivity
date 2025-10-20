@@ -40,6 +40,17 @@
     }
   },
   {
+    "label": "Light Visibility",
+    "name": "LightVisibility",
+    "screenshot": "screenshot/screenshot_animated.webp",
+    "description": "Demonstrates KHR_node_visibility and its interaction with KHR_animation_pointer.",
+    "tags": ["animation", "minimal"],
+    "variants": {
+      "glTF-Binary": "LightVisibility.glb",
+      "glTF": "LightVisibility.gltf"
+    }
+  },
+  {
     "label": "Magic Ball",
     "name": "MagicBall",
     "screenshot": "screenshot/screenshot.png",

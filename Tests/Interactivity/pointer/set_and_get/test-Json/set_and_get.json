@@ -18,23 +18,23 @@
       ],
       "entryPoints": [
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/color",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
           "nodeId": 0
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
           "nodeId": 16
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/range",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
           "nodeId": 32
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
           "nodeId": 207
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
           "nodeId": 222
         },
         {
@@ -340,8 +340,8 @@
       ],
       "subTests": [
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/color",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color",
           "resultVarId": 1,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -350,51 +350,51 @@
             0.0
           ],
           "successResultVarId": 0,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity",
           "resultVarId": 3,
           "resultVarType": "float",
           "expectedResultValue": [
             4.0
           ],
           "successResultVarId": 2,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/range",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range",
           "resultVarId": 5,
           "resultVarType": "float",
           "expectedResultValue": [
             9.0
           ],
           "successResultVarId": 4,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
           "resultVarId": 7,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
           "successResultVarId": 6,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
           "resultVarId": 9,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
           "successResultVarId": 8,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle"
         },
         {
           "name": "/alphaCutoff",

@@ -1169,7 +1169,7 @@
           "nodeId": 1386
         },
         {
-          "name": "/materials/{}/doubleSided",
+          "name": "/materials/[]/doubleSided",
           "nodeId": 1410
         },
         {
@@ -1185,11 +1185,11 @@
           "nodeId": 1482
         },
         {
-          "name": "/nodes/{}/weights.length",
+          "name": "/nodes/[]/weights.length",
           "nodeId": 1506
         },
         {
-          "name": "/meshes/{0}/weights.length",
+          "name": "/meshes/[]/weights.length",
           "nodeId": 1530
         },
         {
@@ -1197,7 +1197,7 @@
           "nodeId": 1554
         },
         {
-          "name": "/nodes/{}/camera",
+          "name": "/nodes/[]/camera",
           "nodeId": 1578
         },
         {
@@ -1205,11 +1205,11 @@
           "nodeId": 1602
         },
         {
-          "name": "/nodes/{}/children/{}",
+          "name": "/nodes/[]/children/[]",
           "nodeId": 1626
         },
         {
-          "name": "/nodes/{nodeWithMesh}/mesh",
+          "name": "/nodes/[]/mesh",
           "nodeId": 1650
         },
         {
@@ -1233,7 +1233,7 @@
           "nodeId": 1770
         },
         {
-          "name": "/nodes/{}/skin",
+          "name": "/nodes/[]/skin",
           "nodeId": 1794
         },
         {
@@ -1245,11 +1245,11 @@
           "nodeId": 1842
         },
         {
-          "name": "/skins/{}/joints/{}",
+          "name": "/skins/[]/joints/[]",
           "nodeId": 1866
         },
         {
-          "name": "/skins/{}/skeleton",
+          "name": "/skins/[]/skeleton",
           "nodeId": 1890
         }
       ],
@@ -1321,26 +1321,26 @@
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/materials.length isValid"
         },
         {
-          "name": "/materials/{}/doubleSided",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials/{}/doubleSided",
+          "name": "/materials/[]/doubleSided",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials/[]/doubleSided",
           "resultVarId": 134,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 133,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/materials/{}/doubleSided"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/materials/[]/doubleSided"
         },
         {
-          "name": "/materials/{}/doubleSided isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials/{}/doubleSided isValid",
+          "name": "/materials/[]/doubleSided isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/materials/[]/doubleSided isValid",
           "resultVarId": 136,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 135,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/materials/{}/doubleSided isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/materials/[]/doubleSided isValid"
         },
         {
           "name": "/meshes.length",
@@ -1409,48 +1409,48 @@
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes/0/primitives/0/material isValid"
         },
         {
-          "name": "/nodes/{}/weights.length",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/weights.length",
+          "name": "/nodes/[]/weights.length",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/weights.length",
           "resultVarId": 150,
           "resultVarType": "int",
           "expectedResultValue": [
             2
           ],
           "successResultVarId": 149,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/weights.length"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/weights.length"
         },
         {
-          "name": "/nodes/{}/weights.length isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/weights.length isValid",
+          "name": "/nodes/[]/weights.length isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/weights.length isValid",
           "resultVarId": 152,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 151,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/weights.length isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/weights.length isValid"
         },
         {
-          "name": "/meshes/{0}/weights.length",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/{0}/weights.length",
+          "name": "/meshes/[]/weights.length",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/[]/weights.length",
           "resultVarId": 154,
           "resultVarType": "int",
           "expectedResultValue": [
             2
           ],
           "successResultVarId": 153,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes/{0}/weights.length"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes/[]/weights.length"
         },
         {
-          "name": "/meshes/{0}/weights.length isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/{0}/weights.length isValid",
+          "name": "/meshes/[]/weights.length isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/meshes/[]/weights.length isValid",
           "resultVarId": 156,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 155,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes/{0}/weights.length isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/meshes/[]/weights.length isValid"
         },
         {
           "name": "/nodes.length",
@@ -1475,26 +1475,26 @@
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes.length isValid"
         },
         {
-          "name": "/nodes/{}/camera",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/camera",
+          "name": "/nodes/[]/camera",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera",
           "resultVarId": 162,
           "resultVarType": "int",
           "expectedResultValue": [
             0
           ],
           "successResultVarId": 161,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/camera"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera"
         },
         {
-          "name": "/nodes/{}/camera isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/camera isValid",
+          "name": "/nodes/[]/camera isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera isValid",
           "resultVarId": 164,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 163,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/camera isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/camera isValid"
         },
         {
           "name": "/nodes/0/children.length",
@@ -1519,48 +1519,48 @@
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/0/children.length isValid"
         },
         {
-          "name": "/nodes/{}/children/{}",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/children/{}",
+          "name": "/nodes/[]/children/[]",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/children/[]",
           "resultVarId": 170,
           "resultVarType": "int",
           "expectedResultValue": [
             1
           ],
           "successResultVarId": 169,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/children/{}"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/children/[]"
         },
         {
-          "name": "/nodes/{}/children/{} isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/children/{} isValid",
+          "name": "/nodes/[]/children/[] isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/children/[] isValid",
           "resultVarId": 172,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 171,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/children/{} isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/children/[] isValid"
         },
         {
-          "name": "/nodes/{nodeWithMesh}/mesh",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{nodeWithMesh}/mesh",
+          "name": "/nodes/[]/mesh",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/mesh",
           "resultVarId": 174,
           "resultVarType": "int",
           "expectedResultValue": [
             0
           ],
           "successResultVarId": 173,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{nodeWithMesh}/mesh"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/mesh"
         },
         {
-          "name": "/nodes/{nodeWithMesh}/mesh isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{nodeWithMesh}/mesh isValid",
+          "name": "/nodes/[]/mesh isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/mesh isValid",
           "resultVarId": 176,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 175,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{nodeWithMesh}/mesh isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/mesh isValid"
         },
         {
           "name": "/nodes/1/parent",
@@ -1673,26 +1673,26 @@
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/scenes/0/nodes/0 isValid"
         },
         {
-          "name": "/nodes/{}/skin",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/skin",
+          "name": "/nodes/[]/skin",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/skin",
           "resultVarId": 198,
           "resultVarType": "int",
           "expectedResultValue": [
             0
           ],
           "successResultVarId": 197,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/skin"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/skin"
         },
         {
-          "name": "/nodes/{}/skin isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/skin isValid",
+          "name": "/nodes/[]/skin isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/skin isValid",
           "resultVarId": 200,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 199,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/{}/skin isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/nodes/[]/skin isValid"
         },
         {
           "name": "/skins.length",
@@ -1739,48 +1739,48 @@
           "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/0/joints.length isValid"
         },
         {
-          "name": "/skins/{}/joints/{}",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/joints/{}",
+          "name": "/skins/[]/joints/[]",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/joints/[]",
           "resultVarId": 210,
           "resultVarType": "int",
           "expectedResultValue": [
             420
           ],
           "successResultVarId": 209,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/joints/{}"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/joints/[]"
         },
         {
-          "name": "/skins/{}/joints/{} isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/joints/{} isValid",
+          "name": "/skins/[]/joints/[] isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/joints/[] isValid",
           "resultVarId": 212,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 211,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/joints/{} isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/joints/[] isValid"
         },
         {
-          "name": "/skins/{}/skeleton",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/skeleton",
+          "name": "/skins/[]/skeleton",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/skeleton",
           "resultVarId": 214,
           "resultVarType": "int",
           "expectedResultValue": [
             0
           ],
           "successResultVarId": 213,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/skeleton"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/skeleton"
         },
         {
-          "name": "/skins/{}/skeleton isValid",
-          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/skeleton isValid",
+          "name": "/skins/[]/skeleton isValid",
+          "resultVarName": "TestResult_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/skeleton isValid",
           "resultVarId": 216,
           "resultVarType": "bool",
           "expectedResultValue": [
             true
           ],
           "successResultVarId": 215,
-          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/{}/skeleton isValid"
+          "successResultVarName": "TestResult_HasPassed_pointer/CoreReadOnlyPointers_GetTests_/skins/[]/skeleton isValid"
         }
       ]
     },
@@ -1800,23 +1800,23 @@
       ],
       "entryPoints": [
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/color",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
           "nodeId": 1914
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
           "nodeId": 1929
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/range",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
           "nodeId": 1944
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
           "nodeId": 1959
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
           "nodeId": 1974
         },
         {
@@ -2122,8 +2122,8 @@
       ],
       "subTests": [
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/color",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/color",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color",
           "resultVarId": 218,
           "resultVarType": "float3",
           "expectedResultValue": [
@@ -2132,51 +2132,51 @@
             0.0
           ],
           "successResultVarId": 217,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/intensity",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity",
           "resultVarId": 220,
           "resultVarType": "float",
           "expectedResultValue": [
             4.0
           ],
           "successResultVarId": 219,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/range",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/range",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range",
           "resultVarId": 222,
           "resultVarType": "float",
           "expectedResultValue": [
             9.0
           ],
           "successResultVarId": 221,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle",
           "resultVarId": 224,
           "resultVarType": "float",
           "expectedResultValue": [
             2.0
           ],
           "successResultVarId": 223,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle"
         },
         {
-          "name": "/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle",
-          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle",
+          "name": "/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
+          "resultVarName": "TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle",
           "resultVarId": 226,
           "resultVarType": "float",
           "expectedResultValue": [
             5.0
           ],
           "successResultVarId": 225,
-          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle"
+          "successResultVarName": "TestResult_HasPassed_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle"
         },
         {
           "name": "/alphaCutoff",

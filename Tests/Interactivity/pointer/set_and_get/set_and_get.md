@@ -4,11 +4,11 @@
 ### Tests:
 | Sub Test | Result Var.Name | Result Var.Id | Expected Value
 | ----------- | ----------- | ----------- |----------- |
-| /extensions/KHR_lights_punctual/lights/{lightIndex}/color | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/color | 1 | (1.00000, 0.00000, 0.00000)
-| /extensions/KHR_lights_punctual/lights/{lightIndex}/intensity | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/intensity | 3 | 4.00000
-| /extensions/KHR_lights_punctual/lights/{lightIndex}/range | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/range | 5 | 9.00000
-| /extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/innerConeAngle | 7 | 2.00000
-| /extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/{lightIndex}/spot/outerConeAngle | 9 | 5.00000
+| /extensions/KHR_lights_punctual/lights/[]/color | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/color | 1 | (1.00000, 0.00000, 0.00000)
+| /extensions/KHR_lights_punctual/lights/[]/intensity | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/intensity | 3 | 4.00000
+| /extensions/KHR_lights_punctual/lights/[]/range | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/range | 5 | 9.00000
+| /extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/innerConeAngle | 7 | 2.00000
+| /extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle | TestResult_pointer/set and get_/extensions/KHR_lights_punctual/lights/[]/spot/outerConeAngle | 9 | 5.00000
 | /alphaCutoff | TestResult_pointer/set and get_/alphaCutoff | 11 | 0.50000
 | /emissiveFactor | TestResult_pointer/set and get_/emissiveFactor | 13 | (1.00000, 0.00000, 0.00000)
 | /normalTexture/scale | TestResult_pointer/set and get_/normalTexture/scale | 15 | 0.50000

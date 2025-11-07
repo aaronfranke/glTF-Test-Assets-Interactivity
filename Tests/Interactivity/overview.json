@@ -3502,8 +3502,7 @@
         "math/eq",
         "pointer/set",
         "variable/get",
-        "variable/set",
-        "variable/setMultiple"
+        "variable/set"
       ],
       "entryPoints": [
         {
@@ -3585,7 +3584,6 @@
     "pointer/set",
     "variable/get",
     "variable/interpolate",
-    "variable/set",
-    "variable/setMultiple"
+    "variable/set"
   ]
 }

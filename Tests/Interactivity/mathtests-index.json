@@ -553,7 +553,10 @@
       "math/normalize",
       "math/gt",
       "math/length",
-      "math/and"
+      "math/and",
+      "math/extract4x4",
+      "math/mul",
+      "math/add"
     ],
     "variants": {
       "glTF-Binary": "div.glb",
@@ -760,7 +763,10 @@
       "math/normalize",
       "math/gt",
       "math/length",
-      "math/and"
+      "math/and",
+      "math/extract4x4",
+      "math/mul",
+      "math/add"
     ],
     "variants": {
       "glTF-Binary": "fract.glb",
@@ -1572,7 +1578,10 @@
       "math/normalize",
       "math/gt",
       "math/length",
-      "math/and"
+      "math/and",
+      "math/extract4x4",
+      "math/mul",
+      "math/add"
     ],
     "variants": {
       "glTF-Binary": "rem.glb",

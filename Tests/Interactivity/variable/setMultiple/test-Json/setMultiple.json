@@ -13,8 +13,7 @@
         "math/eq",
         "pointer/set",
         "variable/get",
-        "variable/set",
-        "variable/setMultiple"
+        "variable/set"
       ],
       "entryPoints": [
         {
@@ -67,7 +66,6 @@
     "math/eq",
     "pointer/set",
     "variable/get",
-    "variable/set",
-    "variable/setMultiple"
+    "variable/set"
   ]
 }

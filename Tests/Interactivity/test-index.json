@@ -384,14 +384,13 @@
     "label": "variable/setMultiple",
     "name": "variable/setMultiple",
     "tags": [
-      "variable/setMultiple",
+      "variable/set",
       "event/onStart",
       "variable/get",
       "math/eq",
       "flow/branch",
       "pointer/set",
       "debug/log",
-      "variable/set",
       "flow/sequence"
     ],
     "variants": {

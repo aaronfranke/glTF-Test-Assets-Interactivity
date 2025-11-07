@@ -17,4 +17,3 @@ Schemas used in this test case:
 - pointer/set
 - variable/get
 - variable/set
-- variable/setMultiple
